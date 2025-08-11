@@ -36,7 +36,7 @@ main{
   text-align: center;
 }
 
-.contents p:nth-child(3)::first-letter{
+.contents p:nth-of-type(2)::first-letter{
   color: rgb(97, 206, 249);
   font-weight: bold;
 }
@@ -74,5 +74,5 @@ a:hover{
   }
   #parent{
     flex-direction:column;
-}
+  }
 }
